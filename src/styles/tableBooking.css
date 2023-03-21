@@ -1,0 +1,49 @@
+.chair {
+  height: 25px;
+  width: 25px;
+  border: 2px solid #e3e3e3;
+  margin: 7px;
+  border-radius: 3px;
+}
+.chair:hover {
+  background-color: #e3e3e3;
+}
+.chair:active {
+  background-color: #1f8600;
+}
+.dining_table1 {
+  height: 50px;
+  width: 75px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  line-height: 41px;
+  font-weight: bold;
+}
+.dining_table2 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.dining_table3 {
+  height: 50px;
+  width: 110px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  line-height: 41px;
+  font-weight: bold;
+}
+.dining_table4 {
+  height: 50px;
+  width: 270px;
+  border: 2px solid;
+  border-radius: 25px;
+  line-height: 41px;
+  font-weight: bold;
+}
+.center {
+  align-items: center;
+}
