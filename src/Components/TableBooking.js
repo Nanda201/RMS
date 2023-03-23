@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/tableBooking.css";
 
-const TicketBooking = () => {
+const Tablebooking = () => {
   const [date, setDate] = useState();
   const [slot, setSlot] = useState();
   const handleEvent = (e) => {
@@ -326,4 +326,4 @@ const TicketBooking = () => {
   );
 };
 
-export default TicketBooking;
+export default Tablebooking;
