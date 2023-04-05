@@ -13,7 +13,6 @@ function Contact() {
             setConatctapi(res.data)
         })
     },[])
-    console.log("IM Kalyan");
  
   return (
     <div>
