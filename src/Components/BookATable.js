@@ -2,21 +2,19 @@ import React from 'react'
 
 function BookATable() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid' >
       <div className='row '>
-        <div className='col-md-8 p-0'>
-          <div class="ratio ratio-4x3">
-            <img src="RegisterImg.png" class="h-100" alt="Responsive Image" />
-          </div>
+        <div className='col-lg-8 col-md-6 col-sm-12 p-0'>
+          <img src="RegisterImg.png" alt="Responsive Image" style={{height:"92.6vh", width:"100%"}} />
         </div>
-        <div className='col-md-3 mx-auto my-auto align-items-center '>
 
-          <span className="mb-3 fs-1 fw-bold  ">Book a table</span>
+        <div className='col-lg-3 col-md-6 col-sm-12  mx-auto my-auto '>
+          <span className="mb-3 fs-1 fw-bold mx-5">Book a table</span>
           <br /> <br />
           <form>
             <div className='form-group'>
               <div className="mb-3 input-group input-group-lg">
-                <input type="text" className="form-control input-group-lg" placeholder='Phone Number' required />
+                <input type="text" className="form-control input-group-lg" placeholder='Phone Number' maxlength="10" required />
               </div>
               <div className="mb-3 input-group input-group-lg">
                 <input type="password" className="form-control" placeholder='Password' required />

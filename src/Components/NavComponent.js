@@ -4,6 +4,8 @@ import OrderFood from './OrderFood'
 import Home from './Home';
 import BookATable from './BookATable';
 import Contact from './Contact';
+import CreateOrderAccount from './CreateOrderAccount';
+import CreateBookTableAccount from './CreateBookTableAccount';
 
 function NavComponent() {
     return (
@@ -33,8 +35,8 @@ function NavComponent() {
               </li>
               <li className=" text mt-2">Yellowmirchi restuarant</li>
             </ul>
-            <a href="/order"><span class="content navbar-text">Order</span></a>
-            <a href="/booktable"><span className="content navbar-text mx-4">Book a Table</span></a>
+            <a href="/coa" className="content navbar-brand"><span class="content navbar-text">Order</span></a>
+            <a href="/cbta" className="content navbar-brand"><span className="content navbar-text mx-4">Book a Table</span></a>
           </div>
         </div>
 
@@ -44,11 +46,16 @@ function NavComponent() {
                 <Link  to="/"></Link>
                 <Link  to="/booktable"></Link>
                 <Link to="/contactus"></Link>
+                <Link to="/coa"></Link>
+                <Link to="/cbta"></Link>
                 <Routes>
                 <Route path="/" exact element={<Home/>}/>
                 <Route path="/order" element={<OrderFood/>}/>
                 <Route path="/booktable" element={<BookATable/>}/>
                 <Route path='/contactus' element={<Contact/>}/>
+                <Route path='/coa' element={<CreateOrderAccount/>}/>
+                <Route path='/cbta' element={<CreateBookTableAccount/>}/>
+                
             </Routes>
             </BrowserRouter>
         </div >
