@@ -14,7 +14,7 @@ function BookATable() {
           <form>
             <div className='form-group'>
               <div className="mb-3 input-group input-group-lg">
-                <input type="text" className="form-control input-group-lg" placeholder='Phone Number' maxlength="10" required />
+                <input type="text" className="form-control input-group-lg" placeholder='User Name' maxlength="10" required />
               </div>
               <div className="mb-3 input-group input-group-lg">
                 <input type="password" className="form-control" placeholder='Password' required />
